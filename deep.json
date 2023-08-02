@@ -82,61 +82,61 @@
       "id": 11
     },
     {
-      "id": "@deep-foundation/capacitor-deviceDependency",
+      "id": "Dependency@deep-foundation/capacitor-device",
       "type": 1,
       "from": 2,
       "to": 2
     },
     {
-      "id": "@deep-foundation/capacitor-motionDependency",
+      "id": "Dependency@deep-foundation/capacitor-motion",
       "type": 1,
       "from": 3,
       "to": 3
     },
     {
-      "id": "@deep-foundation/capacitor-hapticsDependency",
+      "id": "Dependency@deep-foundation/capacitor-haptics",
       "type": 1,
       "from": 4,
       "to": 4
     },
     {
-      "id": "@deep-foundation/capacitor-screen-readerDependency",
+      "id": "Dependency@deep-foundation/capacitor-screen-reader",
       "type": 1,
       "from": 5,
       "to": 5
     },
     {
-      "id": "@deep-foundation/capacitor-networkDependency",
+      "id": "Dependency@deep-foundation/capacitor-network",
       "type": 1,
       "from": 6,
       "to": 6
     },
     {
-      "id": "@deep-foundation/capacitor-cameraDependency",
+      "id": "Dependency@deep-foundation/capacitor-camera",
       "type": 1,
       "from": 7,
       "to": 7
     },
     {
-      "id": "@deep-foundation/capacitor-action-sheetDependency",
+      "id": "Dependency@deep-foundation/capacitor-action-sheet",
       "type": 1,
       "from": 8,
       "to": 8
     },
     {
-      "id": "@deep-foundation/openai-completionDependency",
+      "id": "Dependency@deep-foundation/openai-completion",
       "type": 1,
       "from": 9,
       "to": 9
     },
     {
-      "id": "@deep-foundation/capacitor-contactDependency",
+      "id": "Dependency@deep-foundation/capacitor-contact",
       "type": 1,
       "from": 10,
       "to": 10
     },
     {
-      "id": "@deep-foundation/browser-extensionDependency",
+      "id": "Dependency@deep-foundation/browser-extension",
       "type": 1,
       "from": 11,
       "to": 11
