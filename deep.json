@@ -154,7 +154,7 @@
     },
     {
       "name": "@deep-foundation/capacitor-motion",
-      "version": "1.0.0"
+      "version": "3.2.2"
     },
     {
       "name": "@deep-foundation/capacitor-haptics",
