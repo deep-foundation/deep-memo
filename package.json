@@ -30,7 +30,7 @@
     "@deep-foundation/capacitor-action-sheet": "~1.0.0",
     "@deep-foundation/capacitor-camera": "^0.0.1",
     "@deep-foundation/capacitor-contact": "^0.0.1",
-    "@deep-foundation/capacitor-device": "~4.0.12",
+    "@deep-foundation/capacitor-device": "^14.0.10",
     "@deep-foundation/capacitor-haptics": "^0.0.1",
     "@deep-foundation/capacitor-motion": "^3.2.2",
     "@deep-foundation/capacitor-network": "^0.0.1",
