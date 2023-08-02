@@ -1,0 +1,192 @@
+{
+  "package": {
+    "name": "@deep-foundation/deep-memo",
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "package": {
+        "dependencyId": 0,
+        "containValue": "Dependency"
+      },
+      "id": 1
+    },
+    {
+      "package": {
+        "dependencyId": 1,
+        "containValue": "Device"
+      },
+      "id": 2
+    },
+    {
+      "package": {
+        "dependencyId": 2,
+        "containValue": "Motion"
+      },
+      "id": 3
+    },
+    {
+      "package": {
+        "dependencyId": 3,
+        "containValue": "Vibrate"
+      },
+      "id": 4
+    },
+    {
+      "package": {
+        "dependencyId": 4,
+        "containValue": "Notify"
+      },
+      "id": 5
+    },
+    {
+      "package": {
+        "dependencyId": 5,
+        "containValue": "Network"
+      },
+      "id": 6
+    },
+    {
+      "package": {
+        "dependencyId": 6,
+        "containValue": "Photo"
+      },
+      "id": 7
+    },
+    {
+      "package": {
+        "dependencyId": 7,
+        "containValue": "ActionSheet"
+      },
+      "id": 8
+    },
+    {
+      "package": {
+        "dependencyId": 8,
+        "containValue": "OpenAiRequestHandlerCode"
+      },
+      "id": 9
+    },
+    {
+      "package": {
+        "dependencyId": 9,
+        "containValue": "contact"
+      },
+      "id": 10
+    },
+    {
+      "package": {
+        "dependencyId": 10,
+        "containValue": "Tab"
+      },
+      "id": 11
+    },
+    {
+      "id": "@deep-foundation/capacitor-deviceDependency",
+      "type": 1,
+      "from": 2,
+      "to": 2
+    },
+    {
+      "id": "@deep-foundation/capacitor-motionDependency",
+      "type": 1,
+      "from": 3,
+      "to": 3
+    },
+    {
+      "id": "@deep-foundation/capacitor-hapticsDependency",
+      "type": 1,
+      "from": 4,
+      "to": 4
+    },
+    {
+      "id": "@deep-foundation/capacitor-screen-readerDependency",
+      "type": 1,
+      "from": 5,
+      "to": 5
+    },
+    {
+      "id": "@deep-foundation/capacitor-networkDependency",
+      "type": 1,
+      "from": 6,
+      "to": 6
+    },
+    {
+      "id": "@deep-foundation/capacitor-cameraDependency",
+      "type": 1,
+      "from": 7,
+      "to": 7
+    },
+    {
+      "id": "@deep-foundation/capacitor-action-sheetDependency",
+      "type": 1,
+      "from": 8,
+      "to": 8
+    },
+    {
+      "id": "@deep-foundation/openai-completionDependency",
+      "type": 1,
+      "from": 9,
+      "to": 9
+    },
+    {
+      "id": "@deep-foundation/capacitor-contactDependency",
+      "type": 1,
+      "from": 10,
+      "to": 10
+    },
+    {
+      "id": "@deep-foundation/browser-extensionDependency",
+      "type": 1,
+      "from": 11,
+      "to": 11
+    }
+  ],
+  "errors": [],
+  "dependencies": [
+    {
+      "name": "@freephoenix888/dependency",
+      "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/device",
+      "version": "1.0.1"
+    },
+    {
+      "name": "@deep-foundation/capacitor-motion",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@deep-foundation/capacitor-haptics",
+      "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/capacitor-screen-reader",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@deep-foundation/capacitor-network",
+      "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/capacitor-camera",
+      "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/capacitor-action-sheet",
+      "version": "1.0.0"
+    },
+    {
+      "name": "@deep-foundation/openai-completion",
+      "version": "1.0.12"
+    },
+    {
+      "name": "@deep-foundation/capacitor-contact",
+      "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/browser-extension",
+      "version": "0.0.1"
+    }
+  ]
+}
