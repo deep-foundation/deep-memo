@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/deep-foundation/deep-memo"
   },
+  "type": "module",
   "scripts": {
     "library:build:clean": "fse remove dist && npm run library:build:dirty",
     "library:build:dirty": "ts-node --esm ./automation/library/build.ts",
