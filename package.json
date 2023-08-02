@@ -15,7 +15,8 @@
     "npm-release": "npm-release",
     "library:build:generate-package-class": "generate-package-class",
     "documentation:generate": "ts-node --esm ./automation/documentation/generate.ts",
-    "library:documentation:generate": "typedoc ./src/main.ts"
+    "library:documentation:generate": "typedoc ./src/main.ts",
+    "npm-install": "npm-install"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -41,7 +42,7 @@
   },
   "devDependencies": {
     "@atao60/fse-cli": "^0.1.7",
-    "@deep-foundation/npm-automation": "^17.2.8",
+    "@deep-foundation/npm-automation": "^17.2.10",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.4.2",
     "fs-extra": "^11.1.1",
