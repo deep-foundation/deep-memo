@@ -26,7 +26,6 @@
   ],
   "version": "1.0.0",
   "dependencies": {
-    "@deep-foundation/core": "^0.0.2",
     "@deep-foundation/browser-extension": "^0.0.1",
     "@deep-foundation/capacitor-action-sheet": "~1.0.0",
     "@deep-foundation/capacitor-camera": "^0.0.1",
@@ -36,13 +35,14 @@
     "@deep-foundation/capacitor-motion": "~1.0.0",
     "@deep-foundation/capacitor-network": "^0.0.1",
     "@deep-foundation/capacitor-screen-reader": "~1.0.0",
+    "@deep-foundation/core": "^0.0.2",
     "@deep-foundation/device": "~1.0.1",
     "@deep-foundation/openai-completion": "~1.0.12",
     "@freephoenix888/dependency": "^0.0.1"
   },
   "devDependencies": {
     "@atao60/fse-cli": "^0.1.7",
-    "@deep-foundation/npm-automation": "^17.2.10",
+    "@deep-foundation/npm-automation": "^18.0.0",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.4.2",
     "fs-extra": "^11.1.1",
