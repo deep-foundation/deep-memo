@@ -149,7 +149,7 @@
       "version": "0.0.1"
     },
     {
-      "name": "@deep-foundation/device",
+      "name": "@deep-foundation/capacitor-device",
       "version": "1.0.1"
     },
     {
