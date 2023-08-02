@@ -24,22 +24,22 @@
     "/dist",
     "./deep.json"
   ],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "dependencies": {
-    "@deep-foundation/browser-extension": "^0.0.1",
+    "@deep-foundation/browser-extension": "~0.0.1",
     "@deep-foundation/capacitor-action-sheet": "~1.0.0",
-    "@deep-foundation/capacitor-camera": "^0.0.1",
-    "@deep-foundation/capacitor-contact": "^0.0.1",
-    "@deep-foundation/capacitor-device": "^14.0.10",
-    "@deep-foundation/capacitor-haptics": "^0.0.1",
-    "@deep-foundation/capacitor-motion": "^3.2.2",
-    "@deep-foundation/capacitor-network": "^0.0.1",
+    "@deep-foundation/capacitor-camera": "~0.0.1",
+    "@deep-foundation/capacitor-contact": "~0.0.1",
+    "@deep-foundation/capacitor-device": "~14.0.10",
+    "@deep-foundation/capacitor-haptics": "~0.0.1",
+    "@deep-foundation/capacitor-motion": "~3.2.2",
+    "@deep-foundation/capacitor-network": "~0.0.1",
     "@deep-foundation/capacitor-screen-reader": "~1.0.0",
     "@deep-foundation/core": "^0.0.2",
     "@deep-foundation/device": "~1.0.1",
-    "@deep-foundation/firebase-push-notification": "^16.0.7",
+    "@deep-foundation/firebase-push-notification": "~16.0.7",
     "@deep-foundation/openai-completion": "~1.0.12",
-    "@freephoenix888/dependency": "^0.0.1"
+    "@freephoenix888/dependency": "~0.0.1"
   },
   "devDependencies": {
     "@atao60/fse-cli": "^0.1.7",
