@@ -19,46 +19,46 @@ const {name: packageName} = package;
 #### Use id method to get the id of the link
 ```ts
 const package = new Package({deep});
-const @deep-foundation/capacitor-deviceDependencyTypeLinkId = await package["@deep-foundation/capacitor-deviceDependency"].id();
-const @deep-foundation/capacitor-motionDependencyTypeLinkId = await package["@deep-foundation/capacitor-motionDependency"].id();
-const @deep-foundation/capacitor-hapticsDependencyTypeLinkId = await package["@deep-foundation/capacitor-hapticsDependency"].id();
-const @deep-foundation/capacitor-screen-readerDependencyTypeLinkId = await package["@deep-foundation/capacitor-screen-readerDependency"].id();
-const @deep-foundation/capacitor-networkDependencyTypeLinkId = await package["@deep-foundation/capacitor-networkDependency"].id();
-const @deep-foundation/capacitor-cameraDependencyTypeLinkId = await package["@deep-foundation/capacitor-cameraDependency"].id();
-const @deep-foundation/capacitor-action-sheetDependencyTypeLinkId = await package["@deep-foundation/capacitor-action-sheetDependency"].id();
-const @deep-foundation/openai-completionDependencyTypeLinkId = await package["@deep-foundation/openai-completionDependency"].id();
-const @deep-foundation/capacitor-contactDependencyTypeLinkId = await package["@deep-foundation/capacitor-contactDependency"].id();
-const @deep-foundation/browser-extensionDependencyTypeLinkId = await package["@deep-foundation/browser-extensionDependency"].id();
+const dependency@deep-foundation/capacitor-deviceTypeLinkId = await package["Dependency@deep-foundation/capacitor-device"].id();
+const dependency@deep-foundation/capacitor-motionTypeLinkId = await package["Dependency@deep-foundation/capacitor-motion"].id();
+const dependency@deep-foundation/capacitor-hapticsTypeLinkId = await package["Dependency@deep-foundation/capacitor-haptics"].id();
+const dependency@deep-foundation/capacitor-screen-readerTypeLinkId = await package["Dependency@deep-foundation/capacitor-screen-reader"].id();
+const dependency@deep-foundation/capacitor-networkTypeLinkId = await package["Dependency@deep-foundation/capacitor-network"].id();
+const dependency@deep-foundation/capacitor-cameraTypeLinkId = await package["Dependency@deep-foundation/capacitor-camera"].id();
+const dependency@deep-foundation/capacitor-action-sheetTypeLinkId = await package["Dependency@deep-foundation/capacitor-action-sheet"].id();
+const dependency@deep-foundation/openai-completionTypeLinkId = await package["Dependency@deep-foundation/openai-completion"].id();
+const dependency@deep-foundation/capacitor-contactTypeLinkId = await package["Dependency@deep-foundation/capacitor-contact"].id();
+const dependency@deep-foundation/browser-extensionTypeLinkId = await package["Dependency@deep-foundation/browser-extension"].id();
 ```
 
 #### Use idLocal method to get the local id of the link
 ```ts
 const package = new Package({deep});
 await package.applyMinilinks();
-const @deep-foundation/capacitor-deviceDependencyTypeLinkId = package["@deep-foundation/capacitor-deviceDependency"].idLocal();
-const @deep-foundation/capacitor-motionDependencyTypeLinkId = package["@deep-foundation/capacitor-motionDependency"].idLocal();
-const @deep-foundation/capacitor-hapticsDependencyTypeLinkId = package["@deep-foundation/capacitor-hapticsDependency"].idLocal();
-const @deep-foundation/capacitor-screen-readerDependencyTypeLinkId = package["@deep-foundation/capacitor-screen-readerDependency"].idLocal();
-const @deep-foundation/capacitor-networkDependencyTypeLinkId = package["@deep-foundation/capacitor-networkDependency"].idLocal();
-const @deep-foundation/capacitor-cameraDependencyTypeLinkId = package["@deep-foundation/capacitor-cameraDependency"].idLocal();
-const @deep-foundation/capacitor-action-sheetDependencyTypeLinkId = package["@deep-foundation/capacitor-action-sheetDependency"].idLocal();
-const @deep-foundation/openai-completionDependencyTypeLinkId = package["@deep-foundation/openai-completionDependency"].idLocal();
-const @deep-foundation/capacitor-contactDependencyTypeLinkId = package["@deep-foundation/capacitor-contactDependency"].idLocal();
-const @deep-foundation/browser-extensionDependencyTypeLinkId = package["@deep-foundation/browser-extensionDependency"].idLocal();
+const dependency@deep-foundation/capacitor-deviceTypeLinkId = package["Dependency@deep-foundation/capacitor-device"].idLocal();
+const dependency@deep-foundation/capacitor-motionTypeLinkId = package["Dependency@deep-foundation/capacitor-motion"].idLocal();
+const dependency@deep-foundation/capacitor-hapticsTypeLinkId = package["Dependency@deep-foundation/capacitor-haptics"].idLocal();
+const dependency@deep-foundation/capacitor-screen-readerTypeLinkId = package["Dependency@deep-foundation/capacitor-screen-reader"].idLocal();
+const dependency@deep-foundation/capacitor-networkTypeLinkId = package["Dependency@deep-foundation/capacitor-network"].idLocal();
+const dependency@deep-foundation/capacitor-cameraTypeLinkId = package["Dependency@deep-foundation/capacitor-camera"].idLocal();
+const dependency@deep-foundation/capacitor-action-sheetTypeLinkId = package["Dependency@deep-foundation/capacitor-action-sheet"].idLocal();
+const dependency@deep-foundation/openai-completionTypeLinkId = package["Dependency@deep-foundation/openai-completion"].idLocal();
+const dependency@deep-foundation/capacitor-contactTypeLinkId = package["Dependency@deep-foundation/capacitor-contact"].idLocal();
+const dependency@deep-foundation/browser-extensionTypeLinkId = package["Dependency@deep-foundation/browser-extension"].idLocal();
 ```
 #### Use name field to get the name of the link
 ```ts
 const package = new Package({deep});
-const @deep-foundation/capacitor-deviceDependency = package["@deep-foundation/capacitor-deviceDependency"].name;
-const @deep-foundation/capacitor-motionDependency = package["@deep-foundation/capacitor-motionDependency"].name;
-const @deep-foundation/capacitor-hapticsDependency = package["@deep-foundation/capacitor-hapticsDependency"].name;
-const @deep-foundation/capacitor-screen-readerDependency = package["@deep-foundation/capacitor-screen-readerDependency"].name;
-const @deep-foundation/capacitor-networkDependency = package["@deep-foundation/capacitor-networkDependency"].name;
-const @deep-foundation/capacitor-cameraDependency = package["@deep-foundation/capacitor-cameraDependency"].name;
-const @deep-foundation/capacitor-action-sheetDependency = package["@deep-foundation/capacitor-action-sheetDependency"].name;
-const @deep-foundation/openai-completionDependency = package["@deep-foundation/openai-completionDependency"].name;
-const @deep-foundation/capacitor-contactDependency = package["@deep-foundation/capacitor-contactDependency"].name;
-const @deep-foundation/browser-extensionDependency = package["@deep-foundation/browser-extensionDependency"].name;
+const dependency@deep-foundation/capacitor-device = package["Dependency@deep-foundation/capacitor-device"].name;
+const dependency@deep-foundation/capacitor-motion = package["Dependency@deep-foundation/capacitor-motion"].name;
+const dependency@deep-foundation/capacitor-haptics = package["Dependency@deep-foundation/capacitor-haptics"].name;
+const dependency@deep-foundation/capacitor-screen-reader = package["Dependency@deep-foundation/capacitor-screen-reader"].name;
+const dependency@deep-foundation/capacitor-network = package["Dependency@deep-foundation/capacitor-network"].name;
+const dependency@deep-foundation/capacitor-camera = package["Dependency@deep-foundation/capacitor-camera"].name;
+const dependency@deep-foundation/capacitor-action-sheet = package["Dependency@deep-foundation/capacitor-action-sheet"].name;
+const dependency@deep-foundation/openai-completion = package["Dependency@deep-foundation/openai-completion"].name;
+const dependency@deep-foundation/capacitor-contact = package["Dependency@deep-foundation/capacitor-contact"].name;
+const dependency@deep-foundation/browser-extension = package["Dependency@deep-foundation/browser-extension"].name;
 ```
 */
 export class Package extends BasePackage {
@@ -73,194 +73,194 @@ export class Package extends BasePackage {
 
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-deviceDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-device link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-deviceDependencyTypeLinkId = await package["@deep-foundation/capacitor-deviceDependency"].id();
+      const dependency@deep-foundation/capacitor-deviceTypeLinkId = await package["Dependency@deep-foundation/capacitor-device"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-deviceDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-device link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-deviceDependencyTypeLinkId = await package["@deep-foundation/capacitor-deviceDependency"].localId();
+      const dependency@deep-foundation/capacitor-deviceTypeLinkId = await package["Dependency@deep-foundation/capacitor-device"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-deviceDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-device link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-deviceDependency = await package["@deep-foundation/capacitor-deviceDependency"].name;
+      const dependency@deep-foundation/capacitor-device = await package["Dependency@deep-foundation/capacitor-device"].name;
       ```
       */
-      public "@deep-foundation/capacitor-deviceDependency" = this.createEntity("@deep-foundation/capacitor-deviceDependency");
+      public "Dependency@deep-foundation/capacitor-device" = this.createEntity("Dependency@deep-foundation/capacitor-device");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-motionDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-motion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-motionDependencyTypeLinkId = await package["@deep-foundation/capacitor-motionDependency"].id();
+      const dependency@deep-foundation/capacitor-motionTypeLinkId = await package["Dependency@deep-foundation/capacitor-motion"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-motionDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-motion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-motionDependencyTypeLinkId = await package["@deep-foundation/capacitor-motionDependency"].localId();
+      const dependency@deep-foundation/capacitor-motionTypeLinkId = await package["Dependency@deep-foundation/capacitor-motion"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-motionDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-motion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-motionDependency = await package["@deep-foundation/capacitor-motionDependency"].name;
+      const dependency@deep-foundation/capacitor-motion = await package["Dependency@deep-foundation/capacitor-motion"].name;
       ```
       */
-      public "@deep-foundation/capacitor-motionDependency" = this.createEntity("@deep-foundation/capacitor-motionDependency");
+      public "Dependency@deep-foundation/capacitor-motion" = this.createEntity("Dependency@deep-foundation/capacitor-motion");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-hapticsDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-haptics link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-hapticsDependencyTypeLinkId = await package["@deep-foundation/capacitor-hapticsDependency"].id();
+      const dependency@deep-foundation/capacitor-hapticsTypeLinkId = await package["Dependency@deep-foundation/capacitor-haptics"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-hapticsDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-haptics link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-hapticsDependencyTypeLinkId = await package["@deep-foundation/capacitor-hapticsDependency"].localId();
+      const dependency@deep-foundation/capacitor-hapticsTypeLinkId = await package["Dependency@deep-foundation/capacitor-haptics"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-hapticsDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-haptics link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-hapticsDependency = await package["@deep-foundation/capacitor-hapticsDependency"].name;
+      const dependency@deep-foundation/capacitor-haptics = await package["Dependency@deep-foundation/capacitor-haptics"].name;
       ```
       */
-      public "@deep-foundation/capacitor-hapticsDependency" = this.createEntity("@deep-foundation/capacitor-hapticsDependency");
+      public "Dependency@deep-foundation/capacitor-haptics" = this.createEntity("Dependency@deep-foundation/capacitor-haptics");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-screen-readerDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-screen-reader link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-screen-readerDependencyTypeLinkId = await package["@deep-foundation/capacitor-screen-readerDependency"].id();
+      const dependency@deep-foundation/capacitor-screen-readerTypeLinkId = await package["Dependency@deep-foundation/capacitor-screen-reader"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-screen-readerDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-screen-reader link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-screen-readerDependencyTypeLinkId = await package["@deep-foundation/capacitor-screen-readerDependency"].localId();
+      const dependency@deep-foundation/capacitor-screen-readerTypeLinkId = await package["Dependency@deep-foundation/capacitor-screen-reader"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-screen-readerDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-screen-reader link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-screen-readerDependency = await package["@deep-foundation/capacitor-screen-readerDependency"].name;
+      const dependency@deep-foundation/capacitor-screen-reader = await package["Dependency@deep-foundation/capacitor-screen-reader"].name;
       ```
       */
-      public "@deep-foundation/capacitor-screen-readerDependency" = this.createEntity("@deep-foundation/capacitor-screen-readerDependency");
+      public "Dependency@deep-foundation/capacitor-screen-reader" = this.createEntity("Dependency@deep-foundation/capacitor-screen-reader");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-networkDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-network link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-networkDependencyTypeLinkId = await package["@deep-foundation/capacitor-networkDependency"].id();
+      const dependency@deep-foundation/capacitor-networkTypeLinkId = await package["Dependency@deep-foundation/capacitor-network"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-networkDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-network link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-networkDependencyTypeLinkId = await package["@deep-foundation/capacitor-networkDependency"].localId();
+      const dependency@deep-foundation/capacitor-networkTypeLinkId = await package["Dependency@deep-foundation/capacitor-network"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-networkDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-network link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-networkDependency = await package["@deep-foundation/capacitor-networkDependency"].name;
+      const dependency@deep-foundation/capacitor-network = await package["Dependency@deep-foundation/capacitor-network"].name;
       ```
       */
-      public "@deep-foundation/capacitor-networkDependency" = this.createEntity("@deep-foundation/capacitor-networkDependency");
+      public "Dependency@deep-foundation/capacitor-network" = this.createEntity("Dependency@deep-foundation/capacitor-network");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-cameraDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-camera link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-cameraDependencyTypeLinkId = await package["@deep-foundation/capacitor-cameraDependency"].id();
+      const dependency@deep-foundation/capacitor-cameraTypeLinkId = await package["Dependency@deep-foundation/capacitor-camera"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-cameraDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-camera link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-cameraDependencyTypeLinkId = await package["@deep-foundation/capacitor-cameraDependency"].localId();
+      const dependency@deep-foundation/capacitor-cameraTypeLinkId = await package["Dependency@deep-foundation/capacitor-camera"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-cameraDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-camera link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-cameraDependency = await package["@deep-foundation/capacitor-cameraDependency"].name;
+      const dependency@deep-foundation/capacitor-camera = await package["Dependency@deep-foundation/capacitor-camera"].name;
       ```
       */
-      public "@deep-foundation/capacitor-cameraDependency" = this.createEntity("@deep-foundation/capacitor-cameraDependency");
+      public "Dependency@deep-foundation/capacitor-camera" = this.createEntity("Dependency@deep-foundation/capacitor-camera");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-action-sheetDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-action-sheet link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-action-sheetDependencyTypeLinkId = await package["@deep-foundation/capacitor-action-sheetDependency"].id();
+      const dependency@deep-foundation/capacitor-action-sheetTypeLinkId = await package["Dependency@deep-foundation/capacitor-action-sheet"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-action-sheetDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-action-sheet link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-action-sheetDependencyTypeLinkId = await package["@deep-foundation/capacitor-action-sheetDependency"].localId();
+      const dependency@deep-foundation/capacitor-action-sheetTypeLinkId = await package["Dependency@deep-foundation/capacitor-action-sheet"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-action-sheetDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-action-sheet link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-action-sheetDependency = await package["@deep-foundation/capacitor-action-sheetDependency"].name;
+      const dependency@deep-foundation/capacitor-action-sheet = await package["Dependency@deep-foundation/capacitor-action-sheet"].name;
       ```
       */
-      public "@deep-foundation/capacitor-action-sheetDependency" = this.createEntity("@deep-foundation/capacitor-action-sheetDependency");
+      public "Dependency@deep-foundation/capacitor-action-sheet" = this.createEntity("Dependency@deep-foundation/capacitor-action-sheet");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/openai-completionDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/openai-completion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/openai-completionDependencyTypeLinkId = await package["@deep-foundation/openai-completionDependency"].id();
+      const dependency@deep-foundation/openai-completionTypeLinkId = await package["Dependency@deep-foundation/openai-completion"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/openai-completionDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/openai-completion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/openai-completionDependencyTypeLinkId = await package["@deep-foundation/openai-completionDependency"].localId();
+      const dependency@deep-foundation/openai-completionTypeLinkId = await package["Dependency@deep-foundation/openai-completion"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/openai-completionDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/openai-completion link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/openai-completionDependency = await package["@deep-foundation/openai-completionDependency"].name;
+      const dependency@deep-foundation/openai-completion = await package["Dependency@deep-foundation/openai-completion"].name;
       ```
       */
-      public "@deep-foundation/openai-completionDependency" = this.createEntity("@deep-foundation/openai-completionDependency");
+      public "Dependency@deep-foundation/openai-completion" = this.createEntity("Dependency@deep-foundation/openai-completion");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/capacitor-contactDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/capacitor-contact link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-contactDependencyTypeLinkId = await package["@deep-foundation/capacitor-contactDependency"].id();
+      const dependency@deep-foundation/capacitor-contactTypeLinkId = await package["Dependency@deep-foundation/capacitor-contact"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/capacitor-contactDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/capacitor-contact link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-contactDependencyTypeLinkId = await package["@deep-foundation/capacitor-contactDependency"].localId();
+      const dependency@deep-foundation/capacitor-contactTypeLinkId = await package["Dependency@deep-foundation/capacitor-contact"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/capacitor-contactDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/capacitor-contact link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/capacitor-contactDependency = await package["@deep-foundation/capacitor-contactDependency"].name;
+      const dependency@deep-foundation/capacitor-contact = await package["Dependency@deep-foundation/capacitor-contact"].name;
       ```
       */
-      public "@deep-foundation/capacitor-contactDependency" = this.createEntity("@deep-foundation/capacitor-contactDependency");
+      public "Dependency@deep-foundation/capacitor-contact" = this.createEntity("Dependency@deep-foundation/capacitor-contact");
       /**
       @example
-      #### Use id method to get the id of the @deep-foundation/browser-extensionDependency link
+      #### Use id method to get the id of the Dependency@deep-foundation/browser-extension link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/browser-extensionDependencyTypeLinkId = await package["@deep-foundation/browser-extensionDependency"].id();
+      const dependency@deep-foundation/browser-extensionTypeLinkId = await package["Dependency@deep-foundation/browser-extension"].id();
       ```
-      #### Use localId method to get the local id of the @deep-foundation/browser-extensionDependency link
+      #### Use localId method to get the local id of the Dependency@deep-foundation/browser-extension link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/browser-extensionDependencyTypeLinkId = await package["@deep-foundation/browser-extensionDependency"].localId();
+      const dependency@deep-foundation/browser-extensionTypeLinkId = await package["Dependency@deep-foundation/browser-extension"].localId();
       ```
-      #### Use name field to get the name of the @deep-foundation/browser-extensionDependency link
+      #### Use name field to get the name of the Dependency@deep-foundation/browser-extension link
       ```ts
       const package = new Package({deep});
-      const @deep-foundation/browser-extensionDependency = await package["@deep-foundation/browser-extensionDependency"].name;
+      const dependency@deep-foundation/browser-extension = await package["Dependency@deep-foundation/browser-extension"].name;
       ```
       */
-      public "@deep-foundation/browser-extensionDependency" = this.createEntity("@deep-foundation/browser-extensionDependency");
+      public "Dependency@deep-foundation/browser-extension" = this.createEntity("Dependency@deep-foundation/browser-extension");
 
 }
 
