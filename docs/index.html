@@ -12,18 +12,31 @@
 <div class="col-content">
 <div class="tsd-page-title">
 <h2>@deep-foundation/deep-memo</h2></div>
-<div class="tsd-panel tsd-typography"><p><a href="https://www.npmjs.com/package/%3CPACKAGE_NAME%3E"><img src="https://img.shields.io/npm/v/deep-memo.svg" alt="npm"></a> 
+<div class="tsd-panel tsd-typography"><p><a href="https://www.npmjs.com/package/@deep-foundation/deep-memo"><img src="https://img.shields.io/npm/v/deep-memo.svg" alt="npm"></a> 
 <a href="https://gitpod.io/#https://github.com/deep-foundation/deep-memo"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod"></a> 
 <a href="https://discord.gg/deep-foundation"><img src="https://badgen.net/badge/icon/discord?icon=discord&label&color=purple" alt="Discord"></a></p>
-<p>npm package with typescript support that will help you to manage your deep package</p>
-<a id="md:installation-and-setup" class="tsd-anchor"></a><h2><a href="#md:installation-and-setup">Installation and setup</a></h2><a id="md:automatically" class="tsd-anchor"></a><h3><a href="#md:automatically">Automatically</a></h3><p>Use <a href="https://www.npmjs.com/package/@deep-foundation/create-typescript-npm-package"><code>@deep-foundation/create-typescript-npm-package</code></a></p>
-<a id="md:manually" class="tsd-anchor"></a><h3><a href="#md:manually">Manually</a></h3><ul>
-<li>Replace <code>&lt;PACKAGE_NAME&gt;</code> in files to your package name</li>
-<li>Replace <code>&lt;DESCRIPTION&gt;</code> in files to your package description</li>
-<li>Replace <code>&lt;REPOSITORY_URL&gt;</code> in files to your package repository url</li>
+<p>Deep-memo</p>
+<!-- TABLE_OF_CONTENTS_START -->
+<ul>
+<li><a href="#description">Description</a></li>
 </ul>
-<a id="md:usage" class="tsd-anchor"></a><h2><a href="#md:usage">Usage</a></h2><p>Export anything you want to let users of your package use your package programatically by using Javascript.<br>Use <code>npm run npm-pull</code> to pull data from npm. This should be used as often as possible because you or your teammate could have published a new version of the package by using deep&#39;s <code>npm-packager</code> package  and you can overwrite those changes if you do not pull them before<br>Use  <code>npm run npm-release</code> to release new version. If you do not pass argument the version will be patched. Note that this script does not publish your package because github action will publish your package when you push your changes after using this command
-Note that these scripts are from <a href="https://www.npmjs.com/package/@deep-foundation/npm-automation"><code>@deep-foundation/npm-automation</code></a> so you can find more information there</p>
+<!-- TABLE_OF_CONTENTS_END -->
+
+<a id="md:description" class="tsd-anchor"></a><h1><a href="#md:description">Description</a></h1><p>This deep package contains these packages:</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-device">@deep-foundation/capacitor-device</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-motion">@deep-foundation/capacitor-motion</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/firebase-push-notification">@deep-foundation/firebase-push-notification</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-haptics">@deep-foundation/capacitor-haptics</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-screen-reader">@deep-foundation/capacitor-screen-reader</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-network">@deep-foundation/capacitor-network</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-camera">@deep-foundation/capacitor-camera</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-action-sheet">@deep-foundation/capacitor-action-sheet</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/openai-completion">@deep-foundation/openai-completion</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-contact">@deep-foundation/capacitor-contact</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/browser-extension">@deep-foundation/browser-extension</a></li>
+<li><a href="https://www.npmjs.com/package/@deep-foundation/capacitor-geolocation">@deep-foundation/capacitor-geolocation</a></li>
+</ul>
 </div></div>
 <div class="col-sidebar">
 <div class="page-menu">
@@ -46,14 +59,7 @@ Note that these scripts are from <a href="https://www.npmjs.com/package/@deep-fo
 <ul>
 <li>
 <ul>
-<li><a href="#md:installation-and-setup"><span>Installation and setup</span></a></li>
-<li>
-<ul>
-<li><a href="#md:automatically"><span>Automatically</span></a></li>
-<li>
-<ul>
-<li><a href="#md:manually"><span>Manually</span></a></li></ul></li>
-<li><a href="#md:usage"><span>Usage</span></a></li></ul></li></ul></li></ul></div></details></div>
+<li><a href="#md:description"><span>Description</span></a></li></ul></li></ul></div></details></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="modules.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>@deep-<wbr/>foundation/deep-<wbr/>memo</span></a>
 <ul class="tsd-small-nested-navigation">
