@@ -187,6 +187,10 @@
     {
       "name": "@deep-foundation/browser-extension",
       "version": "0.0.1"
+    },
+    {
+      "name": "@deep-foundation/firebase-push-notification",
+      "version": "16.0.7"
     }
   ]
 }

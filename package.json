@@ -37,6 +37,7 @@
     "@deep-foundation/capacitor-screen-reader": "~1.0.0",
     "@deep-foundation/core": "^0.0.2",
     "@deep-foundation/device": "~1.0.1",
+    "@deep-foundation/firebase-push-notification": "^16.0.7",
     "@deep-foundation/openai-completion": "~1.0.12",
     "@freephoenix888/dependency": "^0.0.1"
   },
