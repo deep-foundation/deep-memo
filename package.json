@@ -51,6 +51,6 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@deep-foundation/deeplinks": "^0.0.295"
+    "@deep-foundation/deeplinks": "^0.0.298"
   }
 }
