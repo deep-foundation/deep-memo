@@ -1,7 +1,7 @@
 {
   "package": {
     "name": "@deep-foundation/deep-memo",
-    "version": "2.0.4"
+    "version": "3.2.0"
   },
   "data": [
     {
@@ -14,132 +14,106 @@
     {
       "package": {
         "dependencyId": 1,
-        "containValue": "Device"
+        "containValue": "Network"
       },
       "id": 2
     },
     {
       "package": {
         "dependencyId": 2,
-        "containValue": "Motion"
+        "containValue": "Record"
       },
       "id": 3
     },
     {
       "package": {
         "dependencyId": 3,
-        "containValue": "Vibrate"
+        "containValue": "Photo"
       },
       "id": 4
     },
     {
       "package": {
         "dependencyId": 4,
-        "containValue": "Notify"
+        "containValue": "Position"
       },
       "id": 5
     },
     {
       "package": {
         "dependencyId": 5,
-        "containValue": "Network"
+        "containValue": "contact"
       },
       "id": 6
     },
     {
       "package": {
         "dependencyId": 6,
-        "containValue": "Photo"
+        "containValue": "CallInfo"
       },
       "id": 7
     },
     {
       "package": {
         "dependencyId": 7,
-        "containValue": "ActionSheet"
+        "containValue": "Device"
       },
       "id": 8
     },
     {
       "package": {
         "dependencyId": 8,
-        "containValue": "OpenAiRequestHandlerCode"
+        "containValue": "Motion"
       },
       "id": 9
     },
     {
-      "package": {
-        "dependencyId": 9,
-        "containValue": "contact"
-      },
-      "id": 10
-    },
-    {
-      "package": {
-        "dependencyId": 10,
-        "containValue": "Tab"
-      },
-      "id": 11
-    },
-    {
-      "id": "Dependency@deep-foundation/capacitor-device",
+      "id": "Dependency@deep-foundation/capacitor-network",
       "type": 1,
       "from": 2,
       "to": 2
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-motion",
+      "id": "dependency@deep-foundation/capacitor-voice-recorder",
       "type": 1,
       "from": 3,
       "to": 3
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-haptics",
+      "id": "Dependency@deep-foundation/capacitor-camera",
       "type": 1,
       "from": 4,
       "to": 4
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-screen-reader",
+      "id": "Dependency@deep-foundation/capacitor-geolocation",
       "type": 1,
       "from": 5,
       "to": 5
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-network",
+      "id": "Dependency@deep-foundation/capacitor-contact",
       "type": 1,
       "from": 6,
       "to": 6
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-camera",
+      "id": "Dependency@deep-foundation-call-history",
       "type": 1,
       "from": 7,
       "to": 7
     },
     {
-      "id": "Dependency@deep-foundation/capacitor-action-sheet",
+      "id": "Dependency@deep-foundation/capacitor-device",
       "type": 1,
       "from": 8,
       "to": 8
     },
     {
-      "id": "Dependency@deep-foundation/openai-completion",
+      "id": "Dependency@deep-foundation/capacitor-motion",
       "type": 1,
       "from": 9,
       "to": 9
-    },
-    {
-      "id": "Dependency@deep-foundation/capacitor-contact",
-      "type": 1,
-      "from": 10,
-      "to": 10
-    },
-    {
-      "id": "Dependency@deep-foundation/browser-extension",
-      "type": 1,
-      "from": 11,
-      "to": 11
     }
   ],
   "errors": [],
@@ -149,48 +123,36 @@
       "version": "0.0.1"
     },
     {
-      "name": "@deep-foundation/capacitor-device",
-      "version": "14.0.10"
-    },
-    {
-      "name": "@deep-foundation/capacitor-motion",
-      "version": "3.2.2"
-    },
-    {
-      "name": "@deep-foundation/capacitor-haptics",
-      "version": "0.0.1"
-    },
-    {
-      "name": "@deep-foundation/capacitor-screen-reader",
-      "version": "1.0.0"
-    },
-    {
       "name": "@deep-foundation/capacitor-network",
-      "version": "0.0.1"
+      "version": "0.0.10"
+    },
+    {
+      "name": "@deep-foundation/capacitor-voice-recorder",
+      "version": "1.2.7-dev.9"
     },
     {
       "name": "@deep-foundation/capacitor-camera",
-      "version": "0.0.1"
+      "version": "0.0.5"
     },
     {
-      "name": "@deep-foundation/capacitor-action-sheet",
-      "version": "1.0.0"
-    },
-    {
-      "name": "@deep-foundation/openai-completion",
-      "version": "1.0.12"
+      "name": "@deep-foundation/capacitor-geolocation",
+      "version": "0.0.2"
     },
     {
       "name": "@deep-foundation/capacitor-contact",
       "version": "0.0.1"
     },
     {
-      "name": "@deep-foundation/browser-extension",
-      "version": "0.0.1"
+      "name": "@deep-foundation/capacitor-call-history",
+      "version": "0.0.2"
     },
     {
-      "name": "@deep-foundation/firebase-push-notification",
-      "version": "16.0.7"
+      "name": "@deep-foundation/capacitor-device",
+      "version": "20.0.0"
+    },
+    {
+      "name": "@deep-foundation/capacitor-motion",
+      "version": "3.2.3"
     }
   ]
 }
